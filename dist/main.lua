@@ -3055,19 +3055,19 @@ end
 return aa end function a.s()
 return function(aa)
 return{
-Dark={
-Name="Dark",
+Dark = {
+Name = "Dark",
 
-Accent=Color3.fromHex"#18181b",
-Dialog=Color3.fromHex"#161616",
-Outline=Color3.fromHex"#FFFFFF",
-Text=Color3.fromHex"#FFFFFF",
-Placeholder=Color3.fromHex"#7a7a7a",
-Background=Color3.fromHex"#101010",
-Button=Color3.fromHex"#52525b",
-Icon=Color3.fromHex"#a1a1aa",
-Toggle=Color3.fromHex"#33C759",
-Checkbox=Color3.fromHex"#0091ff",
+Accent     = Color3.fromRGB(58, 0, 105),
+Outline    = Color3.fromRGB(64, 8, 120),
+Background = Color3.fromRGB(28, 4, 50),
+Dialog     = Color3.fromRGB(28, 4, 50),
+Button     = Color3.fromRGB(40, 8, 72),
+Toggle     = Color3.fromRGB(58, 0, 105),
+Checkbox   = Color3.fromRGB(58, 0, 105),
+Text        = Color3.fromRGB(220, 220, 230),
+Placeholder = Color3.fromRGB(165, 160, 185),
+Icon        = Color3.fromRGB(190, 185, 210),
 },
 Light={
 Name="Light",
